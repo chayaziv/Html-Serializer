@@ -30,12 +30,6 @@ namespace HtmlSerializer
             return $"{openingTag}{closingTag}";
         }
 
-        //public HtmlElement()
-        //{
-        //    Attributes = new Dictionary<string, string>();
-        //    Classes = new List<string>();
-        //    Children = new List<HtmlElement>();
-        //}    
         private IEnumerable<HtmlElement> GetChildren()
         {
             foreach (var child in Children)

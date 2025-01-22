@@ -36,7 +36,7 @@ namespace HtmlSerializer
                     }
                     else
                     {
-                        if (htmlHelper.Tags.Contains(component) || htmlHelper.TagsVoid.Contains(component))
+                        if (htmlHelper.Tags.Contains(component))
                         {
                             newSelector.TagName = component;
                         }
